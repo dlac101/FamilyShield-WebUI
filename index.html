@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartOS - Family Shield</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-view="basic">
+
+  <!-- ─── Sidebar ─── -->
+  <nav class="sidebar">
+    <div class="sidebar-logo">
+      <svg class="brand-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 586 149.02" aria-label="Adtran">
+        <path d="M158.80,120.00 C165.19,127.09 173.58,130.63 183.95,130.63 C194.33,130.63 202.71,127.09 209.11,120.00 C215.49,112.92 218.69,104.18 218.69,93.81 C218.69,83.68 215.49,75.08 209.11,67.99 C202.71,60.90 194.33,57.36 183.95,57.36 C173.58,57.36 165.19,60.90 158.80,67.99 C152.41,75.08 149.22,83.68 149.22,93.81 C149.22,104.18 152.41,112.92 158.80,120.00 L229.20,1.76 C234.28,1.76 238.40,5.88 238.40,10.97 L238.32,137.08 C238.32,142.27 234.11,146.48 228.92,146.48 C223.73,146.48 219.52,142.27 219.52,137.08 L219.52,133.21 C208.14,143.71 198.10,149.02 183.09,149.02 C167.82,149.02 155.19,143.70 145.20,133.06 C135.21,122.42 130.22,109.34 130.22,93.80 C130.22,78.53 135.21,65.57 145.20,54.93 C155.19,44.29 167.69,38.97 182.70,38.97 C197.71,38.97 207.98,44.03 219.52,54.65 L219.60,10.97 C219.60,5.88 223.72,1.76 228.80,1.76 Z" fill="currentColor"/>
+        <path d="M308.82,133.41 L308.82,133.41 C310.84,137.57 309.15,142.63 304.99,144.63 C298.91,147.56 291.96,149.02 284.13,149.02 C273.03,149.02 264.67,145.60 259.06,138.74 C253.44,131.89 250.64,122.19 250.64,109.66 L250.64,57.57 L250.84,41.52 L250.85,11.17 C250.85,6.09 254.97,1.97 260.05,1.97 C265.14,1.97 269.26,6.09 269.26,11.17 L269.24,41.52 L295.57,41.52 C300.01,41.52 303.60,45.11 303.60,49.54 C303.60,53.98 300.01,57.57 295.57,57.57 L269.24,57.57 L269.24,111.03 C269.24,124.87 274.92,131.79 286.28,131.79 C290.13,131.79 294.08,130.96 298.15,129.30 C302.22,127.63 306.90,129.45 308.82,133.41 Z" fill="currentColor"/>
+        <path d="M318.67,137.08 L318.67,50.42 C318.67,45.50 322.66,41.52 327.58,41.52 C332.50,41.52 336.49,45.50 336.49,50.42 L336.49,54.85 C342.33,45.44 353.30,38.77 366.64,38.77 C367.69,38.77 368.72,38.81 369.76,38.87 C374.85,39.19 378.66,43.68 378.17,48.75 C377.69,53.62 373.43,57.22 368.55,56.87 C367.78,56.82 367.01,56.79 366.25,56.79 C357.90,56.79 351.72,59.66 346.30,65.41 C340.89,71.15 337.46,80.35 337.46,91.58 L337.46,137.08 C337.46,142.27 333.26,146.48 328.07,146.48 C322.87,146.48 318.67,142.27 318.67,137.08 Z" fill="currentColor"/>
+        <path d="M402.05,120.02 C408.38,127.11 416.74,130.66 427.12,130.66 C437.51,130.66 445.93,127.11 452.39,120.02 C458.85,112.93 462.08,104.19 462.08,93.81 C462.08,83.68 458.85,75.07 452.39,67.97 C445.93,60.88 437.51,57.33 427.12,57.33 C416.74,57.33 408.38,60.88 402.05,67.97 C395.72,75.07 392.55,83.74 392.55,94.00 C392.55,104.25 395.72,112.93 402.05,120.02 L472.06,41.52 C477.03,41.52 481.06,45.55 481.06,50.52 L481.06,137.47 C481.06,142.44 477.03,146.48 472.06,146.48 C467.08,146.48 463.05,142.44 463.05,137.47 L463.05,133.02 C453.45,143.08 441.31,149.02 426.04,149.02 C411.02,149.02 398.52,143.67 388.54,132.97 C378.55,122.26 373.56,109.01 373.56,93.21 C373.56,77.55 378.52,64.59 388.44,54.34 C398.36,44.09 410.89,38.97 426.04,38.97 C440.92,38.97 452.04,44.34 463.05,54.65 L463.05,50.52 C463.05,45.55 467.08,41.52 472.06,41.52 Z" fill="currentColor"/>
+        <path d="M492.79,137.47 L492.79,50.52 C492.79,45.55 496.83,41.52 501.80,41.52 L502.19,41.52 C507.17,41.52 511.20,45.55 511.20,50.52 L511.20,54.26 C519.13,44.19 528.95,38.77 544.49,38.77 C556.24,38.77 566.09,42.56 574.06,50.13 C582.02,57.70 586.00,68.61 586.00,82.83 L586.00,137.47 C586.00,142.44 581.97,146.48 577.00,146.48 L576.41,146.48 C571.43,146.48 567.40,142.44 567.40,137.47 L567.40,88.12 C567.40,77.94 564.92,70.08 559.96,64.52 C555.00,58.98 549.25,56.20 541.29,56.20 C532.80,56.20 525.85,59.21 520.43,65.21 C515.01,71.22 511.59,79.63 511.59,89.03 L511.59,137.47 C511.59,142.44 507.56,146.48 502.58,146.48 L501.80,146.48 C496.83,146.48 492.79,142.44 492.79,137.47 Z" fill="currentColor"/>
+        <path d="M22.51,110.12 C16.44,110.12 10.84,114.49 8.56,120.12 L2.88,132.93 C0.00,139.41 4.52,146.48 12.19,146.48 C16.64,146.48 20.64,143.99 22.26,140.21 L35.87,110.12 L22.51,110.12 Z" fill="currentColor"/>
+        <path d="M130.38,132.96 L75.64,7.84 C72.21,0.00 61.09,0.02 57.69,7.87 L29.86,72.16 C25.90,81.95 32.21,89.83 42.77,89.83 L43.98,89.83 L66.70,35.84 L110.93,140.21 C112.55,143.99 116.55,146.48 121.00,146.48 L121.06,146.48 C128.71,146.48 133.23,139.43 130.38,132.96 Z" fill="currentColor"/>
+        <path d="M80.16,99.97 C80.16,107.45 74.10,113.52 66.62,113.52 C59.14,113.52 53.08,107.45 53.08,99.97 C53.08,92.50 59.14,86.43 66.62,86.43 C74.10,86.43 80.16,92.50 80.16,99.97 Z" fill="currentColor"/>
+      </svg>
+    </div>
+
+    <div class="sidebar-nav">
+      <!-- Main nav sections (abbreviated for this app) -->
+      <div class="nav-section-label">Monitor</div>
+      <a class="nav-item" href="#"><i class="ph-bold ph-gauge"></i><span>Dashboard</span></a>
+
+      <div class="nav-section-label">System</div>
+      <a class="nav-item" href="#"><i class="ph-bold ph-globe-simple"></i><span>Network</span></a>
+      <a class="nav-item" href="#"><i class="ph-bold ph-wifi-high"></i><span>WiFi</span></a>
+      <a class="nav-item" href="#"><i class="ph-bold ph-devices"></i><span>Devices</span></a>
+
+      <div class="nav-section-label">Services</div>
+      <!-- Family Shield (collapsible group) -->
+      <a class="nav-group-toggle active-group" id="navFamilyShield">
+        <i class="ph-bold ph-shield-check"></i>
+        <span>Family Shield</span>
+        <i class="ph-bold ph-caret-down nav-caret"></i>
+      </a>
+      <div class="nav-submenu open" id="fsSubmenu">
+        <a class="nav-subitem active" data-view="overview">
+          <i class="ph-bold ph-squares-four"></i><span>Overview</span>
+        </a>
+        <a class="nav-subitem" data-view="profiles">
+          <i class="ph-bold ph-users-three"></i><span>Profiles</span>
+        </a>
+        <a class="nav-subitem" data-view="monitor">
+          <i class="ph-bold ph-chart-line-up"></i><span>Monitor</span>
+        </a>
+      </div>
+
+      <div class="nav-section-label">Admin</div>
+      <a class="nav-item" href="#"><i class="ph-bold ph-gear-six"></i><span>System</span></a>
+    </div>
+
+    <div class="sidebar-footer">
+      <button class="theme-toggle" id="themeToggle" title="Toggle theme">
+        <i class="ph-bold ph-sun icon-sun"></i>
+        <i class="ph-bold ph-moon icon-moon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── Main Content ─── -->
+  <div class="main-wrap">
+
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <div class="top-bar-left">
+        <h1 id="pageTitle">Overview</h1>
+        <span class="badge badge-shield" id="shieldBadge">SHIELD OFF</span>
+      </div>
+      <div class="top-bar-right">
+        <div class="view-toggle-group">
+          <button class="view-toggle active" data-view="basic" onclick="setView('basic')">Simple</button>
+          <button class="view-toggle" data-view="tech" onclick="setView('tech')">Advanced</button>
+        </div>
+        <div class="topbar-divider"></div>
+        <div class="stat-pill">
+          <span class="stat-label">Profiles</span>
+          <span class="stat-value" id="statProfiles">0</span>
+        </div>
+        <div class="stat-pill">
+          <span class="stat-label">Devices</span>
+          <span class="stat-value" id="statDevices">0</span>
+        </div>
+        <div class="stat-pill">
+          <span class="stat-label">Blocked Today</span>
+          <span class="stat-value" id="statBlocked">0</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ─── View: Overview ─── -->
+    <div class="view-container" id="viewOverview">
+      <div class="overview-grid">
+
+        <!-- Shield Status Card (span 2) -->
+        <div class="card card-span-2" id="card-shield-status">
+          <div class="shield-master-row">
+            <div class="shield-hero">
+              <div class="shield-icon-wrap" id="shieldIconWrap">
+                <i class="ph-duotone ph-shield-slash" id="shieldHeroIcon" style="font-size:40px"></i>
+              </div>
+              <div class="shield-hero-text">
+                <div class="shield-state" id="shieldStateText">Family Shield is OFF</div>
+                <div class="shield-sub" id="shieldSubText">Enable to apply default safety controls network-wide</div>
+              </div>
+            </div>
+            <div class="fs-switch fs-switch-lg" id="toggleShield"><div class="fs-switch-thumb"></div></div>
+          </div>
+          <div class="shield-options-row">
+            <div class="shield-chip-wrap" id="shieldChips">
+              <button class="shield-chip" id="chipMacs" onclick="toggleShieldChip('blockMacs','chipMacs',this)">
+                <i class="ph-bold ph-fingerprint"></i> Block Private MACs
+              </button>
+              <button class="shield-chip" id="chipApproval" onclick="toggleShieldChip('requireApproval','chipApproval',this)">
+                <i class="ph-bold ph-user-check"></i> Require Approval
+              </button>
+              <button class="shield-chip tech-only" id="chipRateLimits" onclick="toggleShieldChip('rateLimits','chipRateLimits',this)">
+                <i class="ph-bold ph-gauge"></i> Rate Limits
+              </button>
+            </div>
+            <div class="rate-limit-inputs tech-only" id="rateLimitInputs" style="display:none">
+              <div class="rl-field">
+                <span class="rl-label">Down</span>
+                <input type="number" class="fs-input" id="rlDown" value="150">
+                <span class="rl-unit">Mbps</span>
+              </div>
+              <div class="rl-field">
+                <span class="rl-label">Up</span>
+                <input type="number" class="fs-input" id="rlUp" value="150">
+                <span class="rl-unit">Mbps</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Profiles Card -->
+        <div class="card" id="card-profiles-summary">
+          <div class="card-label">Profiles</div>
+          <div id="profilesSummaryContent" class="profiles-summary-list">
+            <!-- rendered by JS -->
+          </div>
+        </div>
+
+        <!-- Today's Activity Card -->
+        <div class="card" id="card-today-activity">
+          <div class="card-label">Today's Activity</div>
+          <div class="today-stats" id="todayStatsContent">
+            <!-- rendered by JS -->
+          </div>
+        </div>
+
+        <!-- Notifications Card (advanced only) -->
+        <div class="card tech-only" id="card-notifications">
+          <div class="card-label">Recent Alerts</div>
+          <div id="alertsContent" class="alerts-list">
+            <div class="empty-state">No alerts</div>
+          </div>
+        </div>
+
+        <!-- Top Blocked Card (advanced only) -->
+        <div class="card tech-only" id="card-top-blocked">
+          <div class="card-label">Top Blocked</div>
+          <div id="topBlockedContent" class="top-blocked-split">
+            <!-- rendered by JS -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ─── View: Profiles ─── -->
+    <div class="view-container" id="viewProfiles" style="display:none">
+      <!-- Profile strip + editor -->
+      <div class="profiles-wrap">
+        <div class="profile-strip" id="profileStrip">
+          <!-- rendered by JS: profile pills -->
+        </div>
+        <div class="profile-editor card" id="profileEditor">
+          <div class="profile-editor-header" id="profileEditorHeader">
+            <!-- rendered by JS -->
+          </div>
+          <div class="profile-tabs" id="profileTabs">
+            <!-- rendered by JS -->
+          </div>
+          <div class="profile-tab-content" id="profileTabContent">
+            <!-- rendered by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─── View: Monitor ─── -->
+    <div class="view-container" id="viewMonitor" style="display:none">
+      <div class="monitor-header">
+        <div class="monitor-device-picker" id="devicePicker">
+          <!-- rendered by JS -->
+        </div>
+        <div class="monitor-view-toggle">
+          <button class="mon-tab active" data-montab="activity">Activity</button>
+          <button class="mon-tab" data-montab="usage">Usage</button>
+          <button class="mon-tab" data-montab="webhistory">Web History</button>
+        </div>
+        <div class="monitor-time-range" id="monitorTimeRange">
+          <!-- rendered by JS per sub-view -->
+        </div>
+      </div>
+      <div class="monitor-content" id="monitorContent">
+        <!-- rendered by JS -->
+      </div>
+    </div>
+
+  </div><!-- /main-wrap -->
+
+  <script src="familyshield-data.js"></script>
+  <script src="familyshield.js"></script>
+</body>
+</html>

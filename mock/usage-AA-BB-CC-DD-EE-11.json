@@ -1,0 +1,296 @@
+{
+    "ranges": {
+        "1h": [
+            {
+                "category": "Gaming",
+                "totalTime": 42,
+                "totalBytes": 520000000,
+                "applications": [
+                    {"name": "Roblox", "timeMinutes": 20, "bytes": 280000000},
+                    {"name": "Minecraft", "timeMinutes": 15, "bytes": 180000000},
+                    {"name": "Among Us", "timeMinutes": 7, "bytes": 60000000}
+                ]
+            },
+            {
+                "category": "Video",
+                "totalTime": 15,
+                "totalBytes": 420000000,
+                "applications": [
+                    {"name": "YouTube", "timeMinutes": 15, "bytes": 420000000}
+                ]
+            },
+            {
+                "category": "Network",
+                "totalTime": 2,
+                "totalBytes": 1500000,
+                "applications": [
+                    {"name": "DNS", "timeMinutes": 2, "bytes": 1500000}
+                ]
+            },
+            {
+                "category": "System",
+                "totalTime": 1,
+                "totalBytes": 350000,
+                "applications": [
+                    {"name": "NTP", "timeMinutes": 1, "bytes": 350000}
+                ]
+            }
+        ],
+        "4h": [
+            {
+                "category": "Gaming",
+                "totalTime": 140,
+                "totalBytes": 1850000000,
+                "applications": [
+                    {"name": "Roblox", "timeMinutes": 60, "bytes": 820000000},
+                    {"name": "Minecraft", "timeMinutes": 45, "bytes": 630000000},
+                    {"name": "Among Us", "timeMinutes": 20, "bytes": 210000000},
+                    {"name": "Brawl Stars", "timeMinutes": 15, "bytes": 190000000}
+                ]
+            },
+            {
+                "category": "Video",
+                "totalTime": 55,
+                "totalBytes": 1650000000,
+                "applications": [
+                    {"name": "YouTube", "timeMinutes": 35, "bytes": 1050000000},
+                    {"name": "YouTube Kids", "timeMinutes": 20, "bytes": 600000000}
+                ]
+            },
+            {
+                "category": "Cloud",
+                "totalTime": 5,
+                "totalBytes": 28000000,
+                "applications": [
+                    {"name": "iCloud", "timeMinutes": 5, "bytes": 28000000}
+                ]
+            },
+            {
+                "category": "Network",
+                "totalTime": 6,
+                "totalBytes": 5200000,
+                "applications": [
+                    {"name": "DNS", "timeMinutes": 4, "bytes": 3800000},
+                    {"name": "MDNS", "timeMinutes": 2, "bytes": 1400000}
+                ]
+            },
+            {
+                "category": "System",
+                "totalTime": 4,
+                "totalBytes": 1200000,
+                "applications": [
+                    {"name": "NTP", "timeMinutes": 4, "bytes": 1200000}
+                ]
+            }
+        ],
+        "1d": [
+            {
+                "category": "Gaming",
+                "totalTime": 245,
+                "totalBytes": 3200000000,
+                "applications": [
+                    {"name": "Roblox", "timeMinutes": 95, "bytes": 1300000000},
+                    {"name": "Minecraft", "timeMinutes": 70, "bytes": 950000000},
+                    {"name": "Among Us", "timeMinutes": 35, "bytes": 380000000},
+                    {"name": "Brawl Stars", "timeMinutes": 25, "bytes": 320000000},
+                    {"name": "PUBG Mobile", "timeMinutes": 20, "bytes": 250000000}
+                ]
+            },
+            {
+                "category": "Video",
+                "totalTime": 95,
+                "totalBytes": 2850000000,
+                "applications": [
+                    {"name": "YouTube", "timeMinutes": 60, "bytes": 1800000000},
+                    {"name": "YouTube Kids", "timeMinutes": 25, "bytes": 750000000},
+                    {"name": "Netflix", "timeMinutes": 10, "bytes": 300000000}
+                ]
+            },
+            {
+                "category": "Streaming",
+                "totalTime": 20,
+                "totalBytes": 180000000,
+                "applications": [
+                    {"name": "Spotify", "timeMinutes": 12, "bytes": 110000000},
+                    {"name": "Apple Music", "timeMinutes": 8, "bytes": 70000000}
+                ]
+            },
+            {
+                "category": "Cloud",
+                "totalTime": 12,
+                "totalBytes": 65000000,
+                "applications": [
+                    {"name": "iCloud", "timeMinutes": 10, "bytes": 52000000},
+                    {"name": "iCloud Photos", "timeMinutes": 2, "bytes": 13000000}
+                ]
+            },
+            {
+                "category": "Network",
+                "totalTime": 14,
+                "totalBytes": 12000000,
+                "applications": [
+                    {"name": "DNS", "timeMinutes": 9, "bytes": 8200000},
+                    {"name": "MDNS", "timeMinutes": 4, "bytes": 3100000},
+                    {"name": "ICMP", "timeMinutes": 1, "bytes": 700000}
+                ]
+            },
+            {
+                "category": "System",
+                "totalTime": 10,
+                "totalBytes": 3200000,
+                "applications": [
+                    {"name": "NTP", "timeMinutes": 10, "bytes": 3200000}
+                ]
+            },
+            {
+                "category": "SoftwareUpdate",
+                "totalTime": 6,
+                "totalBytes": 420000000,
+                "applications": [
+                    {"name": "iOS Update", "timeMinutes": 4, "bytes": 350000000},
+                    {"name": "App Updates", "timeMinutes": 2, "bytes": 70000000}
+                ]
+            }
+        ],
+        "1w": [
+            {
+                "category": "Gaming",
+                "totalTime": 1260,
+                "totalBytes": 17500000000,
+                "applications": [
+                    {"name": "Roblox", "timeMinutes": 490, "bytes": 6900000000},
+                    {"name": "Minecraft", "timeMinutes": 360, "bytes": 5100000000},
+                    {"name": "Among Us", "timeMinutes": 180, "bytes": 2000000000},
+                    {"name": "Brawl Stars", "timeMinutes": 130, "bytes": 1700000000},
+                    {"name": "PUBG Mobile", "timeMinutes": 100, "bytes": 1800000000}
+                ]
+            },
+            {
+                "category": "Video",
+                "totalTime": 490,
+                "totalBytes": 14700000000,
+                "applications": [
+                    {"name": "YouTube", "timeMinutes": 310, "bytes": 9300000000},
+                    {"name": "YouTube Kids", "timeMinutes": 130, "bytes": 3900000000},
+                    {"name": "Netflix", "timeMinutes": 35, "bytes": 1050000000},
+                    {"name": "Disney+", "timeMinutes": 15, "bytes": 450000000}
+                ]
+            },
+            {
+                "category": "Streaming",
+                "totalTime": 100,
+                "totalBytes": 900000000,
+                "applications": [
+                    {"name": "Spotify", "timeMinutes": 60, "bytes": 540000000},
+                    {"name": "Apple Music", "timeMinutes": 40, "bytes": 360000000}
+                ]
+            },
+            {
+                "category": "Cloud",
+                "totalTime": 60,
+                "totalBytes": 340000000,
+                "applications": [
+                    {"name": "iCloud", "timeMinutes": 50, "bytes": 280000000},
+                    {"name": "iCloud Photos", "timeMinutes": 10, "bytes": 60000000}
+                ]
+            },
+            {
+                "category": "Network",
+                "totalTime": 70,
+                "totalBytes": 62000000,
+                "applications": [
+                    {"name": "DNS", "timeMinutes": 45, "bytes": 42000000},
+                    {"name": "MDNS", "timeMinutes": 20, "bytes": 16000000},
+                    {"name": "ICMP", "timeMinutes": 5, "bytes": 4000000}
+                ]
+            },
+            {
+                "category": "System",
+                "totalTime": 50,
+                "totalBytes": 17000000,
+                "applications": [
+                    {"name": "NTP", "timeMinutes": 50, "bytes": 17000000}
+                ]
+            },
+            {
+                "category": "SoftwareUpdate",
+                "totalTime": 30,
+                "totalBytes": 2100000000,
+                "applications": [
+                    {"name": "iOS Update", "timeMinutes": 20, "bytes": 1750000000},
+                    {"name": "App Updates", "timeMinutes": 10, "bytes": 350000000}
+                ]
+            }
+        ],
+        "1m": [
+            {
+                "category": "Gaming",
+                "totalTime": 5400,
+                "totalBytes": 75000000000,
+                "applications": [
+                    {"name": "Roblox", "timeMinutes": 2100, "bytes": 29500000000},
+                    {"name": "Minecraft", "timeMinutes": 1540, "bytes": 21800000000},
+                    {"name": "Among Us", "timeMinutes": 770, "bytes": 8600000000},
+                    {"name": "Brawl Stars", "timeMinutes": 560, "bytes": 7300000000},
+                    {"name": "PUBG Mobile", "timeMinutes": 430, "bytes": 7800000000}
+                ]
+            },
+            {
+                "category": "Video",
+                "totalTime": 2100,
+                "totalBytes": 63000000000,
+                "applications": [
+                    {"name": "YouTube", "timeMinutes": 1330, "bytes": 39900000000},
+                    {"name": "YouTube Kids", "timeMinutes": 560, "bytes": 16800000000},
+                    {"name": "Netflix", "timeMinutes": 150, "bytes": 4500000000},
+                    {"name": "Disney+", "timeMinutes": 60, "bytes": 1800000000}
+                ]
+            },
+            {
+                "category": "Streaming",
+                "totalTime": 430,
+                "totalBytes": 3900000000,
+                "applications": [
+                    {"name": "Spotify", "timeMinutes": 260, "bytes": 2340000000},
+                    {"name": "Apple Music", "timeMinutes": 170, "bytes": 1560000000}
+                ]
+            },
+            {
+                "category": "Cloud",
+                "totalTime": 257,
+                "totalBytes": 1460000000,
+                "applications": [
+                    {"name": "iCloud", "timeMinutes": 215, "bytes": 1200000000},
+                    {"name": "iCloud Photos", "timeMinutes": 42, "bytes": 260000000}
+                ]
+            },
+            {
+                "category": "Network",
+                "totalTime": 300,
+                "totalBytes": 265000000,
+                "applications": [
+                    {"name": "DNS", "timeMinutes": 193, "bytes": 180000000},
+                    {"name": "MDNS", "timeMinutes": 86, "bytes": 68000000},
+                    {"name": "ICMP", "timeMinutes": 21, "bytes": 17000000}
+                ]
+            },
+            {
+                "category": "System",
+                "totalTime": 215,
+                "totalBytes": 73000000,
+                "applications": [
+                    {"name": "NTP", "timeMinutes": 215, "bytes": 73000000}
+                ]
+            },
+            {
+                "category": "SoftwareUpdate",
+                "totalTime": 129,
+                "totalBytes": 9000000000,
+                "applications": [
+                    {"name": "iOS Update", "timeMinutes": 86, "bytes": 7500000000},
+                    {"name": "App Updates", "timeMinutes": 43, "bytes": 1500000000}
+                ]
+            }
+        ]
+    }
+}

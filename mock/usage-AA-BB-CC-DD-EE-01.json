@@ -1,0 +1,284 @@
+{
+    "ranges": {
+        "1h": [
+            {
+                "category": "Gaming",
+                "totalTime": 45,
+                "totalBytes": 1250000000,
+                "applications": [
+                    {"name": "Halo Infinite", "timeMinutes": 25, "bytes": 850000000},
+                    {"name": "Minecraft", "timeMinutes": 15, "bytes": 320000000},
+                    {"name": "Fortnite", "timeMinutes": 5, "bytes": 80000000}
+                ]
+            },
+            {
+                "category": "Streaming",
+                "totalTime": 12,
+                "totalBytes": 180000000,
+                "applications": [
+                    {"name": "Twitch", "timeMinutes": 12, "bytes": 180000000}
+                ]
+            },
+            {
+                "category": "Network",
+                "totalTime": 3,
+                "totalBytes": 2500000,
+                "applications": [
+                    {"name": "DNS", "timeMinutes": 2, "bytes": 1200000},
+                    {"name": "MDNS", "timeMinutes": 1, "bytes": 1300000}
+                ]
+            }
+        ],
+        "4h": [
+            {
+                "category": "Gaming",
+                "totalTime": 180,
+                "totalBytes": 5200000000,
+                "applications": [
+                    {"name": "Halo Infinite", "timeMinutes": 90, "bytes": 2800000000},
+                    {"name": "Minecraft", "timeMinutes": 45, "bytes": 1200000000},
+                    {"name": "Call of Duty", "timeMinutes": 30, "bytes": 950000000},
+                    {"name": "Fortnite", "timeMinutes": 15, "bytes": 250000000}
+                ]
+            },
+            {
+                "category": "Video",
+                "totalTime": 35,
+                "totalBytes": 980000000,
+                "applications": [
+                    {"name": "YouTube", "timeMinutes": 20, "bytes": 650000000},
+                    {"name": "Netflix", "timeMinutes": 15, "bytes": 330000000}
+                ]
+            },
+            {
+                "category": "Streaming",
+                "totalTime": 25,
+                "totalBytes": 420000000,
+                "applications": [
+                    {"name": "Twitch", "timeMinutes": 25, "bytes": 420000000}
+                ]
+            },
+            {
+                "category": "Network",
+                "totalTime": 8,
+                "totalBytes": 8500000,
+                "applications": [
+                    {"name": "DNS", "timeMinutes": 5, "bytes": 4200000},
+                    {"name": "MDNS", "timeMinutes": 2, "bytes": 3100000},
+                    {"name": "ICMP", "timeMinutes": 1, "bytes": 1200000}
+                ]
+            },
+            {
+                "category": "System",
+                "totalTime": 4,
+                "totalBytes": 1800000,
+                "applications": [
+                    {"name": "NTP", "timeMinutes": 4, "bytes": 1800000}
+                ]
+            }
+        ],
+        "1d": [
+            {
+                "category": "Gaming",
+                "totalTime": 420,
+                "totalBytes": 12500000000,
+                "applications": [
+                    {"name": "Halo Infinite", "timeMinutes": 180, "bytes": 5200000000},
+                    {"name": "Minecraft", "timeMinutes": 95, "bytes": 2100000000},
+                    {"name": "Call of Duty", "timeMinutes": 75, "bytes": 2800000000},
+                    {"name": "Fortnite", "timeMinutes": 40, "bytes": 980000000},
+                    {"name": "Roblox", "timeMinutes": 30, "bytes": 1420000000}
+                ]
+            },
+            {
+                "category": "Video",
+                "totalTime": 95,
+                "totalBytes": 2800000000,
+                "applications": [
+                    {"name": "YouTube", "timeMinutes": 50, "bytes": 1650000000},
+                    {"name": "Netflix", "timeMinutes": 30, "bytes": 850000000},
+                    {"name": "Disney+", "timeMinutes": 15, "bytes": 300000000}
+                ]
+            },
+            {
+                "category": "Streaming",
+                "totalTime": 60,
+                "totalBytes": 950000000,
+                "applications": [
+                    {"name": "Twitch", "timeMinutes": 45, "bytes": 750000000},
+                    {"name": "Spotify", "timeMinutes": 15, "bytes": 200000000}
+                ]
+            },
+            {
+                "category": "SocialNetwork",
+                "totalTime": 25,
+                "totalBytes": 180000000,
+                "applications": [
+                    {"name": "Discord", "timeMinutes": 25, "bytes": 180000000}
+                ]
+            },
+            {
+                "category": "Network",
+                "totalTime": 18,
+                "totalBytes": 22000000,
+                "applications": [
+                    {"name": "DNS", "timeMinutes": 10, "bytes": 12000000},
+                    {"name": "MDNS", "timeMinutes": 5, "bytes": 7000000},
+                    {"name": "ICMP", "timeMinutes": 3, "bytes": 3000000}
+                ]
+            },
+            {
+                "category": "System",
+                "totalTime": 12,
+                "totalBytes": 5200000,
+                "applications": [
+                    {"name": "NTP", "timeMinutes": 12, "bytes": 5200000}
+                ]
+            },
+            {
+                "category": "SoftwareUpdate",
+                "totalTime": 8,
+                "totalBytes": 850000000,
+                "applications": [
+                    {"name": "Xbox Update", "timeMinutes": 8, "bytes": 850000000}
+                ]
+            }
+        ],
+        "1w": [
+            {
+                "category": "Gaming",
+                "totalTime": 2520,
+                "totalBytes": 75000000000,
+                "applications": [
+                    {"name": "Halo Infinite", "timeMinutes": 980, "bytes": 28000000000},
+                    {"name": "Minecraft", "timeMinutes": 620, "bytes": 14500000000},
+                    {"name": "Call of Duty", "timeMinutes": 450, "bytes": 16500000000},
+                    {"name": "Fortnite", "timeMinutes": 280, "bytes": 8500000000},
+                    {"name": "Roblox", "timeMinutes": 190, "bytes": 7500000000}
+                ]
+            },
+            {
+                "category": "Video",
+                "totalTime": 580,
+                "totalBytes": 18500000000,
+                "applications": [
+                    {"name": "YouTube", "timeMinutes": 320, "bytes": 10500000000},
+                    {"name": "Netflix", "timeMinutes": 180, "bytes": 5800000000},
+                    {"name": "Disney+", "timeMinutes": 80, "bytes": 2200000000}
+                ]
+            },
+            {
+                "category": "Streaming",
+                "totalTime": 380,
+                "totalBytes": 6200000000,
+                "applications": [
+                    {"name": "Twitch", "timeMinutes": 280, "bytes": 4800000000},
+                    {"name": "Spotify", "timeMinutes": 100, "bytes": 1400000000}
+                ]
+            },
+            {
+                "category": "SocialNetwork",
+                "totalTime": 150,
+                "totalBytes": 980000000,
+                "applications": [
+                    {"name": "Discord", "timeMinutes": 150, "bytes": 980000000}
+                ]
+            },
+            {
+                "category": "Network",
+                "totalTime": 120,
+                "totalBytes": 145000000,
+                "applications": [
+                    {"name": "DNS", "timeMinutes": 65, "bytes": 78000000},
+                    {"name": "MDNS", "timeMinutes": 35, "bytes": 45000000},
+                    {"name": "ICMP", "timeMinutes": 20, "bytes": 22000000}
+                ]
+            },
+            {
+                "category": "System",
+                "totalTime": 85,
+                "totalBytes": 35000000,
+                "applications": [
+                    {"name": "NTP", "timeMinutes": 85, "bytes": 35000000}
+                ]
+            },
+            {
+                "category": "SoftwareUpdate",
+                "totalTime": 45,
+                "totalBytes": 3200000000,
+                "applications": [
+                    {"name": "Xbox Update", "timeMinutes": 30, "bytes": 2500000000},
+                    {"name": "Game Updates", "timeMinutes": 15, "bytes": 700000000}
+                ]
+            }
+        ],
+        "1m": [
+            {
+                "category": "Gaming",
+                "totalTime": 10800,
+                "totalBytes": 320000000000,
+                "applications": [
+                    {"name": "Halo Infinite", "timeMinutes": 4200, "bytes": 118000000000},
+                    {"name": "Minecraft", "timeMinutes": 2650, "bytes": 62000000000},
+                    {"name": "Call of Duty", "timeMinutes": 1920, "bytes": 71000000000},
+                    {"name": "Fortnite", "timeMinutes": 1200, "bytes": 36000000000},
+                    {"name": "Roblox", "timeMinutes": 830, "bytes": 33000000000}
+                ]
+            },
+            {
+                "category": "Video",
+                "totalTime": 2480,
+                "totalBytes": 79000000000,
+                "applications": [
+                    {"name": "YouTube", "timeMinutes": 1370, "bytes": 45000000000},
+                    {"name": "Netflix", "timeMinutes": 770, "bytes": 24500000000},
+                    {"name": "Disney+", "timeMinutes": 340, "bytes": 9500000000}
+                ]
+            },
+            {
+                "category": "Streaming",
+                "totalTime": 1630,
+                "totalBytes": 26500000000,
+                "applications": [
+                    {"name": "Twitch", "timeMinutes": 1200, "bytes": 20500000000},
+                    {"name": "Spotify", "timeMinutes": 430, "bytes": 6000000000}
+                ]
+            },
+            {
+                "category": "SocialNetwork",
+                "totalTime": 640,
+                "totalBytes": 4200000000,
+                "applications": [
+                    {"name": "Discord", "timeMinutes": 640, "bytes": 4200000000}
+                ]
+            },
+            {
+                "category": "Network",
+                "totalTime": 520,
+                "totalBytes": 620000000,
+                "applications": [
+                    {"name": "DNS", "timeMinutes": 280, "bytes": 335000000},
+                    {"name": "MDNS", "timeMinutes": 150, "bytes": 195000000},
+                    {"name": "ICMP", "timeMinutes": 90, "bytes": 90000000}
+                ]
+            },
+            {
+                "category": "System",
+                "totalTime": 365,
+                "totalBytes": 150000000,
+                "applications": [
+                    {"name": "NTP", "timeMinutes": 365, "bytes": 150000000}
+                ]
+            },
+            {
+                "category": "SoftwareUpdate",
+                "totalTime": 195,
+                "totalBytes": 13500000000,
+                "applications": [
+                    {"name": "Xbox Update", "timeMinutes": 130, "bytes": 10800000000},
+                    {"name": "Game Updates", "timeMinutes": 65, "bytes": 2700000000}
+                ]
+            }
+        ]
+    }
+}

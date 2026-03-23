@@ -1,0 +1,1056 @@
+[
+    {
+        "id": "wh-003",
+        "timestamp": "2026-03-22T12:45:00",
+        "site": "coolmathgames.com",
+        "title": "Cool Math Games",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-004",
+        "timestamp": "2026-03-22T12:00:00",
+        "site": "abcya.com",
+        "title": "ABCya Games",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-005",
+        "timestamp": "2026-03-22T11:15:00",
+        "site": "roblox.com",
+        "title": "Roblox",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-006",
+        "timestamp": "2026-03-22T10:30:00",
+        "site": "minecraft.net",
+        "title": "Minecraft",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-007",
+        "timestamp": "2026-03-22T10:00:00",
+        "site": "google.com",
+        "title": "Google",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-009",
+        "timestamp": "2026-03-21T18:15:00",
+        "site": "disneyplus.com",
+        "title": "Disney+",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-010",
+        "timestamp": "2026-03-21T17:00:00",
+        "site": "netflix.com",
+        "title": "Netflix",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-011",
+        "timestamp": "2026-03-21T15:30:00",
+        "site": "tiktok.com",
+        "title": "TikTok",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-012",
+        "timestamp": "2026-03-21T14:45:00",
+        "site": "funbrain.com",
+        "title": "Funbrain",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-014",
+        "timestamp": "2026-03-20T17:30:00",
+        "site": "roblox.com",
+        "title": "Roblox",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-015",
+        "timestamp": "2026-03-20T16:00:00",
+        "site": "prodigy.com",
+        "title": "Prodigy Math",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-016",
+        "timestamp": "2026-03-20T14:45:00",
+        "site": "instagram.com",
+        "title": "Instagram",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-018",
+        "timestamp": "2026-03-19T18:00:00",
+        "site": "poptropica.com",
+        "title": "Poptropica",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-019",
+        "timestamp": "2026-03-19T16:45:00",
+        "site": "minecraft.net",
+        "title": "Minecraft",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-020",
+        "timestamp": "2026-03-19T15:30:00",
+        "site": "twitter.com",
+        "title": "X (Twitter)",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-022",
+        "timestamp": "2026-03-18T17:30:00",
+        "site": "disneyplus.com",
+        "title": "Disney+",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-023",
+        "timestamp": "2026-03-18T16:00:00",
+        "site": "kiddle.co",
+        "title": "Kiddle Search",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-024",
+        "timestamp": "2026-03-18T14:45:00",
+        "site": "reddit.com",
+        "title": "Reddit",
+        "status": "Blocked",
+        "blockReason": "Web Category (Forums)"
+    },
+    {
+        "id": "wh-026",
+        "timestamp": "2026-03-17T18:00:00",
+        "site": "netflix.com",
+        "title": "Netflix Kids",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-027",
+        "timestamp": "2026-03-17T16:30:00",
+        "site": "lego.com",
+        "title": "LEGO",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-030",
+        "timestamp": "2026-03-16T17:00:00",
+        "site": "pbskids.org",
+        "title": "PBS Kids Games",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-031",
+        "timestamp": "2026-03-15T17:30:00",
+        "site": "coolmathgames.com",
+        "title": "Cool Math Games",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-032",
+        "timestamp": "2026-03-15T16:00:00",
+        "site": "discord.com",
+        "title": "Discord",
+        "status": "Blocked",
+        "blockReason": "Web Category (Messaging)"
+    },
+    {
+        "id": "wh-033",
+        "timestamp": "2026-03-14T19:00:00",
+        "site": "roblox.com",
+        "title": "Roblox",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-034",
+        "timestamp": "2026-03-14T16:30:00",
+        "site": "tiktok.com",
+        "title": "TikTok",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-035",
+        "timestamp": "2026-03-13T18:00:00",
+        "site": "minecraft.net",
+        "title": "Minecraft",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-036",
+        "timestamp": "2026-03-13T15:30:00",
+        "site": "snapchat.com",
+        "title": "Snapchat",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-037",
+        "timestamp": "2026-03-12T18:30:00",
+        "site": "disneyplus.com",
+        "title": "Disney+",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-038",
+        "timestamp": "2026-03-12T17:00:00",
+        "site": "instagram.com",
+        "title": "Instagram",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-039",
+        "timestamp": "2026-03-11T17:30:00",
+        "site": "netflix.com",
+        "title": "Netflix",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-040",
+        "timestamp": "2026-03-11T16:00:00",
+        "site": "twitter.com",
+        "title": "X (Twitter)",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-042",
+        "timestamp": "2026-03-10T16:30:00",
+        "site": "abcya.com",
+        "title": "ABCya Games",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-043",
+        "timestamp": "2026-03-09T19:00:00",
+        "site": "roblox.com",
+        "title": "Roblox",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-044",
+        "timestamp": "2026-03-09T16:30:00",
+        "site": "facebook.com",
+        "title": "Facebook",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-045",
+        "timestamp": "2026-03-08T19:30:00",
+        "site": "minecraft.net",
+        "title": "Minecraft",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-046",
+        "timestamp": "2026-03-08T18:00:00",
+        "site": "twitch.tv",
+        "title": "Twitch",
+        "status": "Blocked",
+        "blockReason": "Web Category (Streaming)"
+    },
+    {
+        "id": "wh-047",
+        "timestamp": "2026-03-07T20:30:00",
+        "site": "disneyplus.com",
+        "title": "Disney+",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-048",
+        "timestamp": "2026-03-07T19:00:00",
+        "site": "discord.com",
+        "title": "Discord",
+        "status": "Blocked",
+        "blockReason": "Web Category (Messaging)"
+    },
+    {
+        "id": "wh-049",
+        "timestamp": "2026-03-06T22:00:00",
+        "site": "coolmathgames.com",
+        "title": "Cool Math Games",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-050",
+        "timestamp": "2026-03-06T19:30:00",
+        "site": "tiktok.com",
+        "title": "TikTok",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-051",
+        "timestamp": "2026-03-05T21:00:00",
+        "site": "pbskids.org",
+        "title": "PBS Kids",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-053",
+        "timestamp": "2026-03-04T21:30:00",
+        "site": "netflix.com",
+        "title": "Netflix",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-054",
+        "timestamp": "2026-03-04T20:00:00",
+        "site": "instagram.com",
+        "title": "Instagram",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-055",
+        "timestamp": "2026-03-03T20:30:00",
+        "site": "roblox.com",
+        "title": "Roblox",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-056",
+        "timestamp": "2026-03-03T19:00:00",
+        "site": "twitter.com",
+        "title": "X (Twitter)",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-058",
+        "timestamp": "2026-03-02T19:30:00",
+        "site": "minecraft.net",
+        "title": "Minecraft",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-059",
+        "timestamp": "2026-03-01T21:00:00",
+        "site": "disneyplus.com",
+        "title": "Disney+",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-060",
+        "timestamp": "2026-03-01T18:30:00",
+        "site": "facebook.com",
+        "title": "Facebook",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-061",
+        "timestamp": "2026-02-28T21:30:00",
+        "site": "funbrain.com",
+        "title": "Funbrain",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-062",
+        "timestamp": "2026-02-28T20:00:00",
+        "site": "twitch.tv",
+        "title": "Twitch",
+        "status": "Blocked",
+        "blockReason": "Web Category (Streaming)"
+    },
+    {
+        "id": "wh-063",
+        "timestamp": "2026-02-27T20:30:00",
+        "site": "lego.com",
+        "title": "LEGO",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-064",
+        "timestamp": "2026-02-27T19:00:00",
+        "site": "discord.com",
+        "title": "Discord",
+        "status": "Blocked",
+        "blockReason": "Web Category (Messaging)"
+    },
+    {
+        "id": "wh-065",
+        "timestamp": "2026-02-26T22:00:00",
+        "site": "netflix.com",
+        "title": "Netflix",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-066",
+        "timestamp": "2026-02-26T19:30:00",
+        "site": "tiktok.com",
+        "title": "TikTok",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-067",
+        "timestamp": "2026-02-25T21:00:00",
+        "site": "roblox.com",
+        "title": "Roblox",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-068",
+        "timestamp": "2026-02-25T18:30:00",
+        "site": "snapchat.com",
+        "title": "Snapchat",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-069",
+        "timestamp": "2026-02-24T21:30:00",
+        "site": "coolmathgames.com",
+        "title": "Cool Math Games",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-070",
+        "timestamp": "2026-02-24T20:00:00",
+        "site": "instagram.com",
+        "title": "Instagram",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-071",
+        "timestamp": "2026-02-23T20:30:00",
+        "site": "minecraft.net",
+        "title": "Minecraft",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-072",
+        "timestamp": "2026-02-23T19:00:00",
+        "site": "twitter.com",
+        "title": "X (Twitter)",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-073",
+        "timestamp": "2026-02-22T22:00:00",
+        "site": "disneyplus.com",
+        "title": "Disney+",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-074",
+        "timestamp": "2026-02-22T19:30:00",
+        "site": "facebook.com",
+        "title": "Facebook",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-076",
+        "timestamp": "2026-02-21T18:30:00",
+        "site": "pbskids.org",
+        "title": "PBS Kids",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-077",
+        "timestamp": "2026-02-20T21:30:00",
+        "site": "roblox.com",
+        "title": "Roblox",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-078",
+        "timestamp": "2026-02-20T20:00:00",
+        "site": "twitch.tv",
+        "title": "Twitch",
+        "status": "Blocked",
+        "blockReason": "Web Category (Streaming)"
+    },
+    {
+        "id": "wh-079",
+        "timestamp": "2026-02-19T20:30:00",
+        "site": "netflix.com",
+        "title": "Netflix",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-080",
+        "timestamp": "2026-02-19T19:00:00",
+        "site": "discord.com",
+        "title": "Discord",
+        "status": "Blocked",
+        "blockReason": "Web Category (Messaging)"
+    },
+    {
+        "id": "wh-081",
+        "timestamp": "2026-02-18T22:00:00",
+        "site": "minecraft.net",
+        "title": "Minecraft",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-082",
+        "timestamp": "2026-02-18T19:30:00",
+        "site": "tiktok.com",
+        "title": "TikTok",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-083",
+        "timestamp": "2026-02-17T21:00:00",
+        "site": "disneyplus.com",
+        "title": "Disney+",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-084",
+        "timestamp": "2026-02-17T18:30:00",
+        "site": "snapchat.com",
+        "title": "Snapchat",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-085",
+        "timestamp": "2026-02-16T21:30:00",
+        "site": "coolmathgames.com",
+        "title": "Cool Math Games",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-086",
+        "timestamp": "2026-02-16T20:00:00",
+        "site": "instagram.com",
+        "title": "Instagram",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-087",
+        "timestamp": "2026-02-15T20:30:00",
+        "site": "roblox.com",
+        "title": "Roblox",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-088",
+        "timestamp": "2026-02-15T19:00:00",
+        "site": "twitter.com",
+        "title": "X (Twitter)",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-090",
+        "timestamp": "2026-02-14T19:30:00",
+        "site": "pbskids.org",
+        "title": "PBS Kids",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-091",
+        "timestamp": "2026-02-13T20:00:00",
+        "site": "netflix.com",
+        "title": "Netflix",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-092",
+        "timestamp": "2026-02-13T17:30:00",
+        "site": "facebook.com",
+        "title": "Facebook",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-093",
+        "timestamp": "2026-02-12T20:30:00",
+        "site": "minecraft.net",
+        "title": "Minecraft",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-094",
+        "timestamp": "2026-02-12T19:00:00",
+        "site": "twitch.tv",
+        "title": "Twitch",
+        "status": "Blocked",
+        "blockReason": "Web Category (Streaming)"
+    },
+    {
+        "id": "wh-095",
+        "timestamp": "2026-02-11T19:30:00",
+        "site": "disneyplus.com",
+        "title": "Disney+",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-097",
+        "timestamp": "2026-02-10T21:00:00",
+        "site": "roblox.com",
+        "title": "Roblox",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-098",
+        "timestamp": "2026-02-10T18:30:00",
+        "site": "tiktok.com",
+        "title": "TikTok",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-099",
+        "timestamp": "2026-02-09T20:00:00",
+        "site": "coolmathgames.com",
+        "title": "Cool Math Games",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-100",
+        "timestamp": "2026-02-09T17:30:00",
+        "site": "snapchat.com",
+        "title": "Snapchat",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-101",
+        "timestamp": "2026-02-08T20:30:00",
+        "site": "funbrain.com",
+        "title": "Funbrain",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-102",
+        "timestamp": "2026-02-08T19:00:00",
+        "site": "instagram.com",
+        "title": "Instagram",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-103",
+        "timestamp": "2026-02-07T19:30:00",
+        "site": "lego.com",
+        "title": "LEGO",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-104",
+        "timestamp": "2026-02-07T18:00:00",
+        "site": "twitter.com",
+        "title": "X (Twitter)",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-105",
+        "timestamp": "2026-02-06T21:00:00",
+        "site": "netflix.com",
+        "title": "Netflix",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-106",
+        "timestamp": "2026-02-06T18:30:00",
+        "site": "facebook.com",
+        "title": "Facebook",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-108",
+        "timestamp": "2026-02-05T17:30:00",
+        "site": "pbskids.org",
+        "title": "PBS Kids",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-109",
+        "timestamp": "2026-02-04T20:30:00",
+        "site": "minecraft.net",
+        "title": "Minecraft",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-110",
+        "timestamp": "2026-02-04T19:00:00",
+        "site": "twitch.tv",
+        "title": "Twitch",
+        "status": "Blocked",
+        "blockReason": "Web Category (Streaming)"
+    },
+    {
+        "id": "wh-111",
+        "timestamp": "2026-02-03T19:30:00",
+        "site": "disneyplus.com",
+        "title": "Disney+",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-112",
+        "timestamp": "2026-02-03T18:00:00",
+        "site": "discord.com",
+        "title": "Discord",
+        "status": "Blocked",
+        "blockReason": "Web Category (Messaging)"
+    },
+    {
+        "id": "wh-113",
+        "timestamp": "2026-02-02T21:00:00",
+        "site": "roblox.com",
+        "title": "Roblox",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-114",
+        "timestamp": "2026-02-02T18:30:00",
+        "site": "tiktok.com",
+        "title": "TikTok",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-115",
+        "timestamp": "2026-02-01T20:00:00",
+        "site": "coolmathgames.com",
+        "title": "Cool Math Games",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-116",
+        "timestamp": "2026-02-01T17:30:00",
+        "site": "snapchat.com",
+        "title": "Snapchat",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-117",
+        "timestamp": "2026-01-31T20:30:00",
+        "site": "netflix.com",
+        "title": "Netflix",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-118",
+        "timestamp": "2026-01-31T19:00:00",
+        "site": "instagram.com",
+        "title": "Instagram",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-119",
+        "timestamp": "2026-01-30T19:30:00",
+        "site": "minecraft.net",
+        "title": "Minecraft",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-120",
+        "timestamp": "2026-01-30T18:00:00",
+        "site": "twitter.com",
+        "title": "X (Twitter)",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-121",
+        "timestamp": "2026-01-29T21:00:00",
+        "site": "disneyplus.com",
+        "title": "Disney+",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-122",
+        "timestamp": "2026-01-29T18:30:00",
+        "site": "facebook.com",
+        "title": "Facebook",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-123",
+        "timestamp": "2026-01-28T20:00:00",
+        "site": "roblox.com",
+        "title": "Roblox",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-124",
+        "timestamp": "2026-01-28T17:30:00",
+        "site": "twitch.tv",
+        "title": "Twitch",
+        "status": "Blocked",
+        "blockReason": "Web Category (Streaming)"
+    },
+    {
+        "id": "wh-126",
+        "timestamp": "2026-01-27T19:00:00",
+        "site": "pbskids.org",
+        "title": "PBS Kids",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-127",
+        "timestamp": "2026-01-26T19:30:00",
+        "site": "coolmathgames.com",
+        "title": "Cool Math Games",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-128",
+        "timestamp": "2026-01-26T18:00:00",
+        "site": "discord.com",
+        "title": "Discord",
+        "status": "Blocked",
+        "blockReason": "Web Category (Messaging)"
+    },
+    {
+        "id": "wh-129",
+        "timestamp": "2026-01-25T21:00:00",
+        "site": "netflix.com",
+        "title": "Netflix",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-130",
+        "timestamp": "2026-01-25T18:30:00",
+        "site": "tiktok.com",
+        "title": "TikTok",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-131",
+        "timestamp": "2026-01-24T20:00:00",
+        "site": "minecraft.net",
+        "title": "Minecraft",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-132",
+        "timestamp": "2026-01-24T17:30:00",
+        "site": "snapchat.com",
+        "title": "Snapchat",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-133",
+        "timestamp": "2026-01-23T20:30:00",
+        "site": "disneyplus.com",
+        "title": "Disney+",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-134",
+        "timestamp": "2026-01-23T19:00:00",
+        "site": "instagram.com",
+        "title": "Instagram",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-135",
+        "timestamp": "2026-01-22T19:30:00",
+        "site": "roblox.com",
+        "title": "Roblox",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-136",
+        "timestamp": "2026-01-22T18:00:00",
+        "site": "twitter.com",
+        "title": "X (Twitter)",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-137",
+        "timestamp": "2026-01-21T21:00:00",
+        "site": "lego.com",
+        "title": "LEGO",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-138",
+        "timestamp": "2026-01-21T18:30:00",
+        "site": "facebook.com",
+        "title": "Facebook",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-139",
+        "timestamp": "2026-01-20T20:00:00",
+        "site": "funbrain.com",
+        "title": "Funbrain",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-140",
+        "timestamp": "2026-01-20T17:30:00",
+        "site": "twitch.tv",
+        "title": "Twitch",
+        "status": "Blocked",
+        "blockReason": "Web Category (Streaming)"
+    },
+    {
+        "id": "wh-141",
+        "timestamp": "2026-01-19T20:30:00",
+        "site": "netflix.com",
+        "title": "Netflix",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-142",
+        "timestamp": "2026-01-19T19:00:00",
+        "site": "discord.com",
+        "title": "Discord",
+        "status": "Blocked",
+        "blockReason": "Web Category (Messaging)"
+    },
+    {
+        "id": "wh-143",
+        "timestamp": "2026-01-18T19:30:00",
+        "site": "coolmathgames.com",
+        "title": "Cool Math Games",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-144",
+        "timestamp": "2026-01-18T18:00:00",
+        "site": "tiktok.com",
+        "title": "TikTok",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-146",
+        "timestamp": "2026-01-17T18:30:00",
+        "site": "minecraft.net",
+        "title": "Minecraft",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-147",
+        "timestamp": "2026-01-16T20:00:00",
+        "site": "disneyplus.com",
+        "title": "Disney+",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-148",
+        "timestamp": "2026-01-16T17:30:00",
+        "site": "snapchat.com",
+        "title": "Snapchat",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-149",
+        "timestamp": "2026-01-15T16:30:00",
+        "site": "roblox.com",
+        "title": "Roblox",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-150",
+        "timestamp": "2026-01-15T15:00:00",
+        "site": "instagram.com",
+        "title": "Instagram",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-151",
+        "timestamp": "2026-01-14T15:30:00",
+        "site": "pbskids.org",
+        "title": "PBS Kids",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-152",
+        "timestamp": "2026-01-14T14:00:00",
+        "site": "twitter.com",
+        "title": "X (Twitter)",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-153",
+        "timestamp": "2026-01-13T17:00:00",
+        "site": "netflix.com",
+        "title": "Netflix",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-154",
+        "timestamp": "2026-01-13T14:30:00",
+        "site": "facebook.com",
+        "title": "Facebook",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    },
+    {
+        "id": "wh-155",
+        "timestamp": "2026-01-12T16:00:00",
+        "site": "minecraft.net",
+        "title": "Minecraft",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-156",
+        "timestamp": "2026-01-12T13:30:00",
+        "site": "twitch.tv",
+        "title": "Twitch",
+        "status": "Blocked",
+        "blockReason": "Web Category (Streaming)"
+    },
+    {
+        "id": "wh-157",
+        "timestamp": "2026-01-11T16:30:00",
+        "site": "disneyplus.com",
+        "title": "Disney+",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-158",
+        "timestamp": "2026-01-11T15:00:00",
+        "site": "discord.com",
+        "title": "Discord",
+        "status": "Blocked",
+        "blockReason": "Web Category (Messaging)"
+    },
+    {
+        "id": "wh-159",
+        "timestamp": "2026-01-10T15:30:00",
+        "site": "coolmathgames.com",
+        "title": "Cool Math Games",
+        "status": "Allowed"
+    },
+    {
+        "id": "wh-160",
+        "timestamp": "2026-01-10T14:00:00",
+        "site": "tiktok.com",
+        "title": "TikTok",
+        "status": "Blocked",
+        "blockReason": "Web Category (Social Media)"
+    }
+]

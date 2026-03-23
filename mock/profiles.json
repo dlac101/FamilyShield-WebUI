@@ -1,0 +1,191 @@
+[
+    {
+        "id": "profile-enzo",
+        "name": "Enzo",
+        "avatar": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 120\"><rect width=\"200\" height=\"120\" rx=\"30\" fill=\"%23f3f4f6\"/><path d=\"M30 70 C45 40 80 30 130 38 L155 72 L170 80 L30 80 Z\" fill=\"%23dc2626\"/><path d=\"M20 80 H180\" stroke=\"%230f172a\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"85\" r=\"16\" fill=\"%230f172a\"/><circle cx=\"70\" cy=\"85\" r=\"10\" fill=\"%23fff\"/><circle cx=\"140\" cy=\"85\" r=\"16\" fill=\"%230f172a\"/><circle cx=\"140\" cy=\"85\" r=\"10\" fill=\"%23fff\"/><path d=\"M120 60 H150\" stroke=\"%23facc15\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M60 58 H95\" stroke=\"%23facc15\" stroke-width=\"5\" stroke-linecap=\"round\"/></svg>",
+        "status": "Active",
+        "notes": "",
+        "groups": ["Kids", "Tablets"],
+        "schedule": {
+            "enabled": false,
+            "windows": [
+                {
+                    "start": "15:00",
+                    "end": "17:00",
+                    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+                }
+            ]
+        },
+        "dailyLimits": {
+            "enabled": false,
+            "entries": [
+                {
+                    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+                    "duration": "01:00"
+                }
+            ]
+        },
+        "web": {
+            "blockMalware": true,
+            "safeSearch": false,
+            "safeYoutube": false,
+            "blockWebSearch": false,
+            "blockProxies": false,
+            "blockAi": false,
+            "blockAdult": false,
+            "blockAds": true,
+            "storeHistory": false
+        },
+        "apps": {
+            "social": true,
+            "gaming": false,
+            "video": false,
+            "education": false,
+            "messaging": true,
+            "creative": false,
+            "p2pMessaging": true,
+            "desktopSharing": false
+        },
+        "protocols": {
+            "p2p": true,
+            "vpn": true,
+            "tor": true,
+            "ssh": false,
+            "interceptDns": true,
+            "blockSecureDns": true
+        },
+        "advanced": {
+            "interceptDns": true,
+            "blockSecureDns": true,
+            "blockVpns": true,
+            "blockPrivateMacs": false,
+            "requireDeviceApproval": true
+        }
+    },
+    {
+        "id": "profile-zeke",
+        "name": "Zeke",
+        "avatar": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 160\"><rect width=\"160\" height=\"160\" rx=\"20\" fill=\"%23232323\"/><rect x=\"18\" y=\"36\" width=\"124\" height=\"108\" rx=\"18\" fill=\"%233b3b3b\"/><rect x=\"24\" y=\"54\" width=\"112\" height=\"70\" fill=\"%2300a86b\"/><rect x=\"38\" y=\"70\" width=\"26\" height=\"26\" fill=\"%2300663f\"/><rect x=\"96\" y=\"70\" width=\"26\" height=\"26\" fill=\"%2300663f\"/><rect x=\"52\" y=\"104\" width=\"56\" height=\"18\" fill=\"%23212121\"/><rect x=\"56\" y=\"88\" width=\"48\" height=\"12\" fill=\"%23ffeb3b\"/><rect x=\"30\" y=\"42\" width=\"100\" height=\"12\" fill=\"%23009688\"/><rect x=\"42\" y=\"46\" width=\"20\" height=\"18\" fill=\"%23f5cda7\"/><rect x=\"98\" y=\"46\" width=\"20\" height=\"18\" fill=\"%23f5cda7\"/></svg>",
+        "status": "Active",
+        "notes": "",
+        "groups": ["Gaming"],
+        "schedule": {
+            "enabled": true,
+            "windows": [
+                {
+                    "start": "08:00",
+                    "end": "18:00",
+                    "days": ["Fri", "Sat", "Sun"]
+                }
+            ]
+        },
+        "dailyLimits": {
+            "enabled": false,
+            "entries": [
+                {
+                    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+                    "duration": "01:00"
+                }
+            ]
+        },
+        "web": {
+            "blockMalware": true,
+            "safeSearch": false,
+            "safeYoutube": false,
+            "blockWebSearch": false,
+            "blockProxies": false,
+            "blockAi": false,
+            "blockAdult": false,
+            "blockAds": true,
+            "storeHistory": false
+        },
+        "apps": {
+            "social": false,
+            "gaming": true,
+            "video": false,
+            "education": false,
+            "messaging": false,
+            "creative": false,
+            "p2pMessaging": true,
+            "desktopSharing": false
+        },
+        "protocols": {
+            "p2p": true,
+            "vpn": true,
+            "tor": true,
+            "ssh": false,
+            "interceptDns": true,
+            "blockSecureDns": true
+        },
+        "advanced": {
+            "interceptDns": true,
+            "blockSecureDns": true,
+            "blockVpns": true,
+            "blockPrivateMacs": true,
+            "requireDeviceApproval": true
+        }
+    },
+    {
+        "id": "profile-elliot",
+        "name": "Elliot",
+        "avatar": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 160\"><rect width=\"160\" height=\"160\" rx=\"40\" fill=\"%23fff7ed\"/><path d=\"M30 48 Q32 30 48 28 L60 60\" fill=\"%23fbbf24\"/><path d=\"M130 48 Q128 30 112 28 L100 60\" fill=\"%23fbbf24\"/><circle cx=\"80\" cy=\"90\" r=\"55\" fill=\"%23fde68a\" stroke=\"%23fbbf24\" stroke-width=\"6\"/><circle cx=\"58\" cy=\"88\" r=\"9\" fill=\"%230f172a\"/><circle cx=\"102\" cy=\"88\" r=\"9\" fill=\"%230f172a\"/><circle cx=\"50\" cy=\"105\" r=\"10\" fill=\"%23fb7185\" opacity=\"0.7\"/><circle cx=\"110\" cy=\"105\" r=\"10\" fill=\"%23fb7185\" opacity=\"0.7\"/><path d=\"M62 118 Q80 130 98 118\" stroke=\"%230f172a\" stroke-width=\"5\" stroke-linecap=\"round\" fill=\"none\"/><path d=\"M70 70 L55 55\" stroke=\"%230f172a\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M90 70 L105 55\" stroke=\"%230f172a\" stroke-width=\"5\" stroke-linecap=\"round\"/></svg>",
+        "status": "Paused",
+        "notes": "",
+        "groups": ["Guests"],
+        "schedule": {
+            "enabled": true,
+            "windows": [
+                {
+                    "start": "09:00",
+                    "end": "22:00",
+                    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+                }
+            ]
+        },
+        "dailyLimits": {
+            "enabled": false,
+            "entries": [
+                {
+                    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+                    "duration": "01:00"
+                }
+            ]
+        },
+        "web": {
+            "blockMalware": true,
+            "safeSearch": false,
+            "safeYoutube": false,
+            "blockWebSearch": false,
+            "blockProxies": false,
+            "blockAi": false,
+            "blockAdult": false,
+            "blockAds": true,
+            "storeHistory": false
+        },
+        "apps": {
+            "social": false,
+            "gaming": false,
+            "video": false,
+            "education": false,
+            "messaging": false,
+            "creative": false,
+            "p2pMessaging": true,
+            "desktopSharing": false
+        },
+        "protocols": {
+            "p2p": true,
+            "vpn": true,
+            "tor": true,
+            "ssh": true,
+            "interceptDns": true,
+            "blockSecureDns": true
+        },
+        "advanced": {
+            "interceptDns": true,
+            "blockSecureDns": true,
+            "blockVpns": true,
+            "blockPrivateMacs": false,
+            "requireDeviceApproval": false
+        }
+    }
+]
