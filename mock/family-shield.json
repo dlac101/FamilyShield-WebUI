@@ -1,0 +1,10 @@
+{
+    "shield": false,
+    "blockMacs": false,
+    "requireApproval": false,
+    "rateLimits": {
+        "enabled": false,
+        "down": 150,
+        "up": 150
+    }
+}

@@ -1,0 +1,408 @@
+{
+    "ranges": {
+        "1h": [
+            {
+                "category": "Web",
+                "totalTime": 25,
+                "totalBytes": 95000000,
+                "applications": [
+                    {"name": "Safari", "timeMinutes": 15, "bytes": 55000000},
+                    {"name": "DuckDuckGo", "timeMinutes": 10, "bytes": 40000000}
+                ]
+            },
+            {
+                "category": "SocialNetwork",
+                "totalTime": 18,
+                "totalBytes": 280000000,
+                "applications": [
+                    {"name": "Instagram", "timeMinutes": 10, "bytes": 150000000},
+                    {"name": "TikTok", "timeMinutes": 8, "bytes": 130000000}
+                ]
+            },
+            {
+                "category": "Privacy",
+                "totalTime": 8,
+                "totalBytes": 45000000,
+                "applications": [
+                    {"name": "ProtonVPN", "timeMinutes": 5, "bytes": 30000000},
+                    {"name": "Signal", "timeMinutes": 3, "bytes": 15000000}
+                ]
+            },
+            {
+                "category": "Gaming",
+                "totalTime": 5,
+                "totalBytes": 65000000,
+                "applications": [
+                    {"name": "Among Us", "timeMinutes": 5, "bytes": 65000000}
+                ]
+            },
+            {
+                "category": "Network",
+                "totalTime": 2,
+                "totalBytes": 1200000,
+                "applications": [
+                    {"name": "DNS", "timeMinutes": 2, "bytes": 1200000}
+                ]
+            },
+            {
+                "category": "System",
+                "totalTime": 2,
+                "totalBytes": 800000,
+                "applications": [
+                    {"name": "NTP", "timeMinutes": 2, "bytes": 800000}
+                ]
+            }
+        ],
+        "4h": [
+            {
+                "category": "Video",
+                "totalTime": 85,
+                "totalBytes": 2550000000,
+                "applications": [
+                    {"name": "YouTube", "timeMinutes": 50, "bytes": 1500000000},
+                    {"name": "TikTok", "timeMinutes": 35, "bytes": 1050000000}
+                ]
+            },
+            {
+                "category": "SocialNetwork",
+                "totalTime": 65,
+                "totalBytes": 980000000,
+                "applications": [
+                    {"name": "Instagram", "timeMinutes": 35, "bytes": 520000000},
+                    {"name": "Snapchat", "timeMinutes": 20, "bytes": 320000000},
+                    {"name": "Discord", "timeMinutes": 10, "bytes": 140000000}
+                ]
+            },
+            {
+                "category": "Web",
+                "totalTime": 55,
+                "totalBytes": 210000000,
+                "applications": [
+                    {"name": "Safari", "timeMinutes": 35, "bytes": 135000000},
+                    {"name": "DuckDuckGo", "timeMinutes": 20, "bytes": 75000000}
+                ]
+            },
+            {
+                "category": "Privacy",
+                "totalTime": 25,
+                "totalBytes": 150000000,
+                "applications": [
+                    {"name": "ProtonVPN", "timeMinutes": 15, "bytes": 95000000},
+                    {"name": "Signal", "timeMinutes": 10, "bytes": 55000000}
+                ]
+            },
+            {
+                "category": "Gaming",
+                "totalTime": 20,
+                "totalBytes": 260000000,
+                "applications": [
+                    {"name": "Among Us", "timeMinutes": 12, "bytes": 155000000},
+                    {"name": "Roblox", "timeMinutes": 8, "bytes": 105000000}
+                ]
+            },
+            {
+                "category": "Streaming",
+                "totalTime": 15,
+                "totalBytes": 210000000,
+                "applications": [
+                    {"name": "Spotify", "timeMinutes": 15, "bytes": 210000000}
+                ]
+            },
+            {
+                "category": "Network",
+                "totalTime": 6,
+                "totalBytes": 4200000,
+                "applications": [
+                    {"name": "DNS", "timeMinutes": 4, "bytes": 2800000},
+                    {"name": "MDNS", "timeMinutes": 2, "bytes": 1400000}
+                ]
+            },
+            {
+                "category": "System",
+                "totalTime": 4,
+                "totalBytes": 2000000,
+                "applications": [
+                    {"name": "NTP", "timeMinutes": 4, "bytes": 2000000}
+                ]
+            }
+        ],
+        "1d": [
+            {
+                "category": "Video",
+                "totalTime": 180,
+                "totalBytes": 5400000000,
+                "applications": [
+                    {"name": "YouTube", "timeMinutes": 110, "bytes": 3300000000},
+                    {"name": "TikTok", "timeMinutes": 50, "bytes": 1500000000},
+                    {"name": "Twitch", "timeMinutes": 20, "bytes": 600000000}
+                ]
+            },
+            {
+                "category": "SocialNetwork",
+                "totalTime": 140,
+                "totalBytes": 2100000000,
+                "applications": [
+                    {"name": "Instagram", "timeMinutes": 70, "bytes": 1050000000},
+                    {"name": "Snapchat", "timeMinutes": 40, "bytes": 600000000},
+                    {"name": "Discord", "timeMinutes": 20, "bytes": 300000000},
+                    {"name": "BeReal", "timeMinutes": 10, "bytes": 150000000}
+                ]
+            },
+            {
+                "category": "Web",
+                "totalTime": 95,
+                "totalBytes": 360000000,
+                "applications": [
+                    {"name": "Safari", "timeMinutes": 60, "bytes": 230000000},
+                    {"name": "DuckDuckGo", "timeMinutes": 35, "bytes": 130000000}
+                ]
+            },
+            {
+                "category": "Privacy",
+                "totalTime": 60,
+                "totalBytes": 380000000,
+                "applications": [
+                    {"name": "ProtonVPN", "timeMinutes": 40, "bytes": 255000000},
+                    {"name": "Signal", "timeMinutes": 20, "bytes": 125000000}
+                ]
+            },
+            {
+                "category": "Gaming",
+                "totalTime": 45,
+                "totalBytes": 585000000,
+                "applications": [
+                    {"name": "Among Us", "timeMinutes": 25, "bytes": 325000000},
+                    {"name": "Roblox", "timeMinutes": 20, "bytes": 260000000}
+                ]
+            },
+            {
+                "category": "Streaming",
+                "totalTime": 40,
+                "totalBytes": 560000000,
+                "applications": [
+                    {"name": "Spotify", "timeMinutes": 30, "bytes": 420000000},
+                    {"name": "Apple Music", "timeMinutes": 10, "bytes": 140000000}
+                ]
+            },
+            {
+                "category": "Cloud",
+                "totalTime": 15,
+                "totalBytes": 85000000,
+                "applications": [
+                    {"name": "iCloud", "timeMinutes": 12, "bytes": 68000000},
+                    {"name": "iCloud Photos", "timeMinutes": 3, "bytes": 17000000}
+                ]
+            },
+            {
+                "category": "Network",
+                "totalTime": 14,
+                "totalBytes": 10000000,
+                "applications": [
+                    {"name": "DNS", "timeMinutes": 9, "bytes": 6500000},
+                    {"name": "MDNS", "timeMinutes": 3, "bytes": 2200000},
+                    {"name": "ICMP", "timeMinutes": 2, "bytes": 1300000}
+                ]
+            },
+            {
+                "category": "System",
+                "totalTime": 11,
+                "totalBytes": 4500000,
+                "applications": [
+                    {"name": "NTP", "timeMinutes": 11, "bytes": 4500000}
+                ]
+            }
+        ],
+        "1w": [
+            {
+                "category": "Video",
+                "totalTime": 1120,
+                "totalBytes": 33600000000,
+                "applications": [
+                    {"name": "YouTube", "timeMinutes": 680, "bytes": 20400000000},
+                    {"name": "TikTok", "timeMinutes": 310, "bytes": 9300000000},
+                    {"name": "Twitch", "timeMinutes": 100, "bytes": 3000000000},
+                    {"name": "Netflix", "timeMinutes": 30, "bytes": 900000000}
+                ]
+            },
+            {
+                "category": "SocialNetwork",
+                "totalTime": 850,
+                "totalBytes": 12750000000,
+                "applications": [
+                    {"name": "Instagram", "timeMinutes": 420, "bytes": 6300000000},
+                    {"name": "Snapchat", "timeMinutes": 250, "bytes": 3750000000},
+                    {"name": "Discord", "timeMinutes": 120, "bytes": 1800000000},
+                    {"name": "BeReal", "timeMinutes": 60, "bytes": 900000000}
+                ]
+            },
+            {
+                "category": "Web",
+                "totalTime": 580,
+                "totalBytes": 2200000000,
+                "applications": [
+                    {"name": "Safari", "timeMinutes": 370, "bytes": 1400000000},
+                    {"name": "DuckDuckGo", "timeMinutes": 210, "bytes": 800000000}
+                ]
+            },
+            {
+                "category": "Privacy",
+                "totalTime": 380,
+                "totalBytes": 2400000000,
+                "applications": [
+                    {"name": "ProtonVPN", "timeMinutes": 250, "bytes": 1600000000},
+                    {"name": "Signal", "timeMinutes": 130, "bytes": 800000000}
+                ]
+            },
+            {
+                "category": "Gaming",
+                "totalTime": 280,
+                "totalBytes": 3640000000,
+                "applications": [
+                    {"name": "Among Us", "timeMinutes": 155, "bytes": 2015000000},
+                    {"name": "Roblox", "timeMinutes": 125, "bytes": 1625000000}
+                ]
+            },
+            {
+                "category": "Streaming",
+                "totalTime": 250,
+                "totalBytes": 3500000000,
+                "applications": [
+                    {"name": "Spotify", "timeMinutes": 190, "bytes": 2660000000},
+                    {"name": "Apple Music", "timeMinutes": 60, "bytes": 840000000}
+                ]
+            },
+            {
+                "category": "Cloud",
+                "totalTime": 90,
+                "totalBytes": 510000000,
+                "applications": [
+                    {"name": "iCloud", "timeMinutes": 72, "bytes": 408000000},
+                    {"name": "iCloud Photos", "timeMinutes": 18, "bytes": 102000000}
+                ]
+            },
+            {
+                "category": "Network",
+                "totalTime": 84,
+                "totalBytes": 60000000,
+                "applications": [
+                    {"name": "DNS", "timeMinutes": 54, "bytes": 39000000},
+                    {"name": "MDNS", "timeMinutes": 18, "bytes": 13000000},
+                    {"name": "ICMP", "timeMinutes": 12, "bytes": 8000000}
+                ]
+            },
+            {
+                "category": "System",
+                "totalTime": 66,
+                "totalBytes": 27000000,
+                "applications": [
+                    {"name": "NTP", "timeMinutes": 66, "bytes": 27000000}
+                ]
+            },
+            {
+                "category": "SoftwareUpdate",
+                "totalTime": 20,
+                "totalBytes": 1400000000,
+                "applications": [
+                    {"name": "iOS Update", "timeMinutes": 15, "bytes": 1200000000},
+                    {"name": "App Updates", "timeMinutes": 5, "bytes": 200000000}
+                ]
+            }
+        ],
+        "1m": [
+            {
+                "category": "Video",
+                "totalTime": 4800,
+                "totalBytes": 144000000000,
+                "applications": [
+                    {"name": "YouTube", "timeMinutes": 2920, "bytes": 87600000000},
+                    {"name": "TikTok", "timeMinutes": 1330, "bytes": 39900000000},
+                    {"name": "Twitch", "timeMinutes": 430, "bytes": 12900000000},
+                    {"name": "Netflix", "timeMinutes": 120, "bytes": 3600000000}
+                ]
+            },
+            {
+                "category": "SocialNetwork",
+                "totalTime": 3650,
+                "totalBytes": 54750000000,
+                "applications": [
+                    {"name": "Instagram", "timeMinutes": 1800, "bytes": 27000000000},
+                    {"name": "Snapchat", "timeMinutes": 1070, "bytes": 16050000000},
+                    {"name": "Discord", "timeMinutes": 520, "bytes": 7800000000},
+                    {"name": "BeReal", "timeMinutes": 260, "bytes": 3900000000}
+                ]
+            },
+            {
+                "category": "Web",
+                "totalTime": 2490,
+                "totalBytes": 9450000000,
+                "applications": [
+                    {"name": "Safari", "timeMinutes": 1590, "bytes": 6025000000},
+                    {"name": "DuckDuckGo", "timeMinutes": 900, "bytes": 3425000000}
+                ]
+            },
+            {
+                "category": "Privacy",
+                "totalTime": 1630,
+                "totalBytes": 10300000000,
+                "applications": [
+                    {"name": "ProtonVPN", "timeMinutes": 1070, "bytes": 6860000000},
+                    {"name": "Signal", "timeMinutes": 560, "bytes": 3440000000}
+                ]
+            },
+            {
+                "category": "Gaming",
+                "totalTime": 1200,
+                "totalBytes": 15600000000,
+                "applications": [
+                    {"name": "Among Us", "timeMinutes": 665, "bytes": 8645000000},
+                    {"name": "Roblox", "timeMinutes": 535, "bytes": 6955000000}
+                ]
+            },
+            {
+                "category": "Streaming",
+                "totalTime": 1070,
+                "totalBytes": 15000000000,
+                "applications": [
+                    {"name": "Spotify", "timeMinutes": 815, "bytes": 11400000000},
+                    {"name": "Apple Music", "timeMinutes": 255, "bytes": 3600000000}
+                ]
+            },
+            {
+                "category": "Cloud",
+                "totalTime": 385,
+                "totalBytes": 2200000000,
+                "applications": [
+                    {"name": "iCloud", "timeMinutes": 310, "bytes": 1760000000},
+                    {"name": "iCloud Photos", "timeMinutes": 75, "bytes": 440000000}
+                ]
+            },
+            {
+                "category": "Network",
+                "totalTime": 360,
+                "totalBytes": 258000000,
+                "applications": [
+                    {"name": "DNS", "timeMinutes": 232, "bytes": 167000000},
+                    {"name": "MDNS", "timeMinutes": 77, "bytes": 56000000},
+                    {"name": "ICMP", "timeMinutes": 51, "bytes": 35000000}
+                ]
+            },
+            {
+                "category": "System",
+                "totalTime": 283,
+                "totalBytes": 116000000,
+                "applications": [
+                    {"name": "NTP", "timeMinutes": 283, "bytes": 116000000}
+                ]
+            },
+            {
+                "category": "SoftwareUpdate",
+                "totalTime": 85,
+                "totalBytes": 6000000000,
+                "applications": [
+                    {"name": "iOS Update", "timeMinutes": 64, "bytes": 5100000000},
+                    {"name": "App Updates", "timeMinutes": 21, "bytes": 900000000}
+                ]
+            }
+        ]
+    }
+}

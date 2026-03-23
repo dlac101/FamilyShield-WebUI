@@ -1,0 +1,54 @@
+[
+    {
+        "icon": "🎮",
+        "type": "Xbox 360",
+        "hostname": "enzo-xbox",
+        "name": "Enzo's Xbox",
+        "profile": "Enzo",
+        "ip": "192.168.10.21",
+        "mac": "AA:BB:CC:DD:EE:01",
+        "status": {
+            "state": "Blocked",
+            "detail": "Daily limit reached"
+        }
+    },
+    {
+        "icon": "💻",
+        "type": "Windows PC",
+        "hostname": "enzo-pc",
+        "name": "HP Laptop",
+        "profile": "Enzo",
+        "ip": "192.168.10.23",
+        "mac": "AA:BB:CC:DD:EE:03",
+        "status": {
+            "state": "Blocked",
+            "detail": "Daily limit reached"
+        }
+    },
+    {
+        "icon": "📱",
+        "type": "iPad",
+        "hostname": "zeke-ipad",
+        "name": "Zeke's iPad",
+        "profile": "Zeke",
+        "ip": "192.168.10.31",
+        "mac": "AA:BB:CC:DD:EE:11",
+        "status": {
+            "state": "Blocked",
+            "detail": "Schedule"
+        }
+    },
+    {
+        "icon": "📱",
+        "type": "iPad",
+        "hostname": "elliot-ipad",
+        "name": "Elliot's iPad",
+        "profile": "Elliot",
+        "ip": "192.168.10.41",
+        "mac": "AA:BB:CC:DD:EE:21",
+        "status": {
+            "state": "Active",
+            "detail": "56m until scheduled block"
+        }
+    }
+]
