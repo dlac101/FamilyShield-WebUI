@@ -290,6 +290,27 @@ body {
   overflow: hidden;
 }
 
+/* ── Mobile sidebar backdrop (hidden by default) ── */
+.sidebar-backdrop { display: none; }
+
+/* ── Hamburger (mobile only) ── */
+.hamburger-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 18px;
+  cursor: pointer;
+  transition: all var(--transition);
+  flex-shrink: 0;
+}
+.hamburger-btn:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
 /* ── Top Bar ── */
 .top-bar {
   height: var(--topbar-height);
@@ -2127,28 +2148,293 @@ tr:hover .row-act-pill.allow {
 .dev-card-select option { background: var(--bg-card); color: var(--text-primary); }
 
 /* ═══════════════════════════════════════════════════════
-   RESPONSIVE
+   RESPONSIVE — SmartOS Breakpoint System
+   640 / 768 / 1024 / 1280 / 1920
    ═══════════════════════════════════════════════════════ */
+
+/* ── 4K / Ultra-wide (≥1920px) ── */
+@media (min-width: 1920px) {
+  :root { --gap: 20px; }
+  body { font-size: 15px; }
+  .view-container { padding: 24px 28px; }
+  .top-bar { padding: 0 28px; }
+  .overview-grid { max-width: 1200px; }
+  .profiles-wrap { max-width: 1200px; }
+  .today-stat-val { font-size: 26px; }
+  .wh-stat-val, .usage-stat-val { font-size: 26px; }
+  .shield-state { font-size: 17px; }
+  .overview-grid > .card:not(.card-span-2) { height: 320px; }
+}
+
+/* ── Desktop (≥1280px) ── default design target, no overrides needed */
+
+/* ── Small Laptop / Tablet Landscape (≤1279px) ── */
+@media (max-width: 1279px) {
+  .overview-grid { max-width: none; }
+  .profiles-wrap { max-width: none; }
+}
+
+/* ── Tablet Landscape / Small Laptop (≤1100px) ── */
 @media (max-width: 1100px) {
-  .overview-grid {
-    grid-template-columns: 1fr;
-  }
+  .overview-grid { grid-template-columns: 1fr; }
   .card-span-2 { grid-column: span 1; }
   .shield-master-row { flex-wrap: wrap; }
   .usage-charts-row { grid-template-columns: 1fr; }
+
+  /* Relax fixed card heights in single-column layout */
+  .overview-grid > .card:not(.card-span-2) {
+    height: auto;
+    min-height: 200px;
+  }
 }
 
-@media (max-width: 768px) {
-  .sidebar { display: none; }
-  .top-bar { padding: 0 12px; }
-  .stat-pill { display: none; }
-  .monitor-header { flex-direction: column; align-items: stretch; }
+/* ── Tablets Portrait (≤1024px) ── */
+@media (max-width: 1024px) {
+  :root { --sidebar-width: 180px; }
+
+  /* Top bar: hide stat pill labels, show values only */
+  .stat-pill .stat-label { display: none; }
+
+  /* Monitor: stack header vertically */
+  .monitor-header { flex-wrap: wrap; }
   .monitor-time-range { margin-left: 0; }
-  .profile-strip { flex-direction: column; }
-  .profile-strip-actions { margin-left: 0; }
+
+  /* Profiles: tighter tabs */
+  .profile-tab { padding: 8px 12px; font-size: 11px; }
+
+  /* Tables: allow horizontal scroll, reduce min-width on cols */
+  .table-wrap { max-height: calc(100vh - 280px); }
+  .fs-table .col-dest { max-width: 150px; }
+  .device-picker-btn { min-width: 180px; }
+
+  /* Grid cards: smaller min-width for tighter fit */
+  .gc-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+}
+
+/* ── Tablet Portrait / Large Phone (≤768px) ── */
+@media (max-width: 768px) {
+  /* Sidebar: fixed overlay with slide-in (matches SmartOS) */
+  .sidebar {
+    position: fixed;
+    left: 0; top: 0;
+    width: 240px;
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+    z-index: 1000;
+    box-shadow: none;
+  }
+  .sidebar.open {
+    transform: translateX(0);
+    box-shadow: 4px 0 24px rgba(0,0,0,0.4);
+  }
+
+  /* Sidebar backdrop overlay */
+  .sidebar-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+  }
+  .sidebar-backdrop.visible { display: block; }
+
+  /* Hamburger menu button visible */
+  .hamburger-btn { display: flex !important; }
+
+  /* Top bar adjustments */
+  .top-bar { padding: 0 12px; gap: 8px; }
+  .top-bar-left h1 { font-size: 14px; }
+  .stat-pill { display: none; }
+  .topbar-divider { display: none; }
+  .view-toggle { padding: 5px 10px; font-size: 10px; }
+
+  /* View container: reduce padding */
+  .view-container { padding: 10px; }
+
+  /* Monitor header: full stack */
+  .monitor-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .monitor-time-range { margin-left: 0; }
+  .monitor-view-toggle { width: 100%; }
+  .mon-tab { flex: 1; text-align: center; padding: 8px 8px; font-size: 11px; }
+  .device-picker-btn { min-width: 0; width: 100%; }
+
+  /* Profiles */
+  .profile-strip {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px 12px;
+  }
+  .profile-strip-actions { margin-left: 0; justify-content: flex-end; }
+  .profile-pill { justify-content: center; }
+  .profile-editor-header { flex-direction: column; gap: 8px; align-items: flex-start; }
+  .profile-editor-name { font-size: 16px; }
+  .profile-tabs { gap: 0; }
+  .profile-tab { padding: 8px 10px; font-size: 11px; }
+
+  /* Overview grid */
+  .overview-grid { grid-template-columns: 1fr; }
+  .card-span-2 { grid-column: span 1; }
+  .overview-grid > .card:not(.card-span-2) {
+    height: auto;
+    min-height: 0;
+  }
+
+  /* Shield card */
+  .shield-master-row { flex-wrap: wrap; }
+  .shield-icon-wrap { width: 44px; height: 44px; border-radius: 10px; }
+  .shield-icon-wrap i { font-size: 28px !important; }
+  .shield-state { font-size: 14px; }
+  .shield-sub { font-size: 10px; }
+  .shield-chip { padding: 5px 10px; font-size: 11px; }
+
+  /* Stats grids: 3-col to 1-col */
   .usage-stats-row { grid-template-columns: 1fr; }
   .webhistory-stats-row, .activity-stats-row { grid-template-columns: 1fr; }
+
+  /* Device cards: single column */
   .dev-cards-grid { grid-template-columns: 1fr; }
+
+  /* Grid option cards: 2-col min */
+  .gc-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+
+  /* Feature cards */
+  .fc-header { padding: 10px 12px; }
+  .fc-icon { width: 34px; height: 34px; font-size: 16px; }
+  .fc-title { font-size: 13px; }
+  .fc-body { padding: 0 12px 12px; }
+
+  /* Tables: reduce column padding */
+  .fs-table thead th { padding: 6px 8px; font-size: 9px; }
+  .fs-table tbody td { padding: 6px 8px; font-size: 11px; }
+  .block-reason { display: none; }
+  .col-actions { width: 70px; min-width: 70px; }
+  .row-act-pill { padding: 3px 8px; font-size: 9px; }
+
+  /* Today's Activity */
+  .today-stat-val { font-size: 18px; }
+  .today-stat-box { padding: 8px 6px; }
+
+  /* Top blocked */
+  .top-blocked-split { flex-direction: column; gap: 12px; }
+
+  /* Toast: narrower */
+  .fs-toast { font-size: 12px; padding: 8px 14px; }
+
+  /* Alerts */
+  .alert-row { padding: 5px 6px; font-size: 11px; }
+}
+
+/* ── Small Phone (≤640px) ── */
+@media (max-width: 640px) {
+  body { font-size: 13px; }
+  .view-container { padding: 8px; }
+  .top-bar { height: 48px; }
+  .top-bar-left h1 { font-size: 13px; }
+  .badge { font-size: 9px; padding: 2px 8px; }
+
+  /* Hide view toggle text labels on very small screens */
+  .view-toggle-group { display: none; }
+
+  /* Card padding reduction */
+  .card { padding: 12px; }
+  .card-label { font-size: 10px; margin-bottom: 8px; }
+
+  /* Shield card compact */
+  .shield-hero { gap: 10px; }
+  .shield-icon-wrap { width: 38px; height: 38px; border-radius: 8px; }
+  .shield-icon-wrap i { font-size: 22px !important; }
+  .shield-state { font-size: 13px; }
+  .shield-chip { padding: 4px 8px; font-size: 10px; gap: 4px; }
+  .shield-chip i { font-size: 12px; }
+  .fs-switch.fs-switch-lg { width: 44px; height: 24px; }
+  .fs-switch.fs-switch-lg .fs-switch-thumb { width: 18px; height: 18px; }
+  .fs-switch.fs-switch-lg.on .fs-switch-thumb { transform: translateX(20px); }
+
+  /* Profile pills: wrap tighter */
+  .profile-pill { padding: 5px 10px; font-size: 12px; gap: 6px; }
+  .profile-pill .pill-devices { display: none; }
+  .profile-editor-name { font-size: 15px; }
+
+  /* Stats: force 3-col but smaller */
+  .usage-stats-row,
+  .webhistory-stats-row,
+  .activity-stats-row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+  .wh-stat-card, .usage-stat-card { padding: 8px 4px; }
+  .wh-stat-val, .usage-stat-val { font-size: 16px; }
+  .wh-stat-label, .usage-stat-label { font-size: 8px; letter-spacing: 0.3px; }
+  .today-stat-val { font-size: 16px; }
+  .today-stat-label { font-size: 8px; }
+
+  /* Monitor header: compact time range */
+  .time-btn { padding: 4px 8px; font-size: 10px; }
+  .mon-tab { padding: 6px 6px; font-size: 10px; }
+
+  /* Tables: hide less important columns */
+  .fs-table .col-mono { font-size: 10px; }
+  .fs-table .col-dest { max-width: 100px; font-size: 10px; }
+
+  /* Grid cards: single column */
+  .gc-grid { grid-template-columns: 1fr 1fr; gap: 6px; }
+  .gc-card { padding: 10px; }
+  .gc-name { font-size: 12px; }
+  .gc-desc { font-size: 9px; }
+  .gc-icon { font-size: 16px; }
+
+  /* Device cards */
+  .dev-card { padding: 10px; }
+  .dev-card-name { font-size: 12px; }
+  .dev-card-mac { font-size: 9px; }
+
+  /* Feature cards: compact */
+  .fc-header { padding: 8px 10px; gap: 8px; }
+  .fc-icon { width: 30px; height: 30px; border-radius: 8px; font-size: 14px; }
+  .fc-title { font-size: 12px; }
+  .fc-desc { font-size: 10px; }
+
+  /* Schedule: compact day buttons */
+  .day-btn { width: 28px; height: 24px; font-size: 10px; }
+  .time-range-row .fs-input { width: 80px; }
+
+  /* Duration stepper compact */
+  .duration-stepper-btn { width: 26px; height: 28px; }
+  .duration-stepper-val { width: 30px; font-size: 12px; line-height: 28px; }
+
+  /* Chip input compact */
+  .chip { font-size: 11px; padding: 2px 6px; }
+  .chip-input { font-size: 11px; min-width: 80px; }
+
+  /* Scrollable lists: cap heights for mobile */
+  .profiles-summary-list { max-height: 220px; }
+  .alerts-list { max-height: 220px; }
+  .top-blocked-split { max-height: 240px; }
+
+  /* Usage bar chart */
+  .usage-bar-name { width: 60px; font-size: 10px; }
+  .usage-bar-val { width: 40px; font-size: 10px; }
+  .usage-bar-track { height: 16px; }
+
+  /* Chart: smaller */
+  .today-chart-wrap { height: 60px; }
+}
+
+/* ── Touch Devices ── */
+@media (pointer: coarse) {
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  .nav-item, .nav-group-toggle { min-height: 44px; padding: 10px 12px; }
+  .nav-subitem { min-height: 40px; padding: 8px 12px; }
+  .profile-pill { min-height: 40px; }
+  .mon-tab { min-height: 40px; }
+  .time-btn { min-height: 36px; }
+  .gc-card { min-height: 60px; }
+  .shield-chip { min-height: 36px; }
+  .row-act-pill { min-height: 32px; padding: 6px 12px; }
 }
 
 /* ═══════════════════════════════════════════════════════

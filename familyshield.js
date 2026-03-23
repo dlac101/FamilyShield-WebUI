@@ -39,6 +39,7 @@ function bindNavigation() {
     item.addEventListener('click', (e) => {
       e.preventDefault();
       switchFsView(item.dataset.view);
+      closeMobileSidebar(); // close sidebar on mobile after navigation
     });
   });
 
@@ -108,6 +109,20 @@ function setView(mode) {
   qsa('.view-toggle').forEach(btn =>
     btn.classList.toggle('active', btn.dataset.view === mode)
   );
+}
+
+// ── Mobile Sidebar ──
+function toggleMobileSidebar() {
+  const sidebar = qs('.sidebar');
+  const backdrop = el('sidebarBackdrop');
+  sidebar.classList.toggle('open');
+  backdrop.classList.toggle('visible');
+}
+function closeMobileSidebar() {
+  const sidebar = qs('.sidebar');
+  const backdrop = el('sidebarBackdrop');
+  sidebar.classList.remove('open');
+  backdrop.classList.remove('visible');
 }
 
 // ═══════════════════════════════════════════════════════
