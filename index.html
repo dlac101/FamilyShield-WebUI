@@ -68,12 +68,18 @@
     </div>
   </nav>
 
+  <!-- Sidebar backdrop for mobile -->
+  <div class="sidebar-backdrop" id="sidebarBackdrop" onclick="closeMobileSidebar()"></div>
+
   <!-- ─── Main Content ─── -->
   <div class="main-wrap">
 
     <!-- Top Bar -->
     <header class="top-bar">
       <div class="top-bar-left">
+        <button class="hamburger-btn" id="hamburgerBtn" onclick="toggleMobileSidebar()" aria-label="Toggle menu">
+          <i class="ph-bold ph-list"></i>
+        </button>
         <h1 id="pageTitle">Overview</h1>
         <span class="badge badge-shield" id="shieldBadge">SHIELD OFF</span>
       </div>
